@@ -26,9 +26,8 @@
     <meta name="author"   content="Solanský" />
     <!--<meta name="viewport" content="width=device-width, initial-scale=0.6" /> zjistit, co toto je! -->
     <meta name="ICBM" content="49.4630311, 18.0917572" />
-   
-    <!--<link rel="stylesheet"      href="files/css/bootstrap.min.css"  type="text/css" />
-    <link rel="stylesheet"      href="files/css/solanska.css"       type="text/css" />
+    <link rel="stylesheet"      href="files/css/bootstrap.min.css"  type="text/css" />
+    <link rel="stylesheet"      href="files/css/solanskysro.css"       type="text/css" /><!--
     <link rel="shortcut icon"   href="files/img/favicon.ico"        type="image/x-icon" />
     <link rel="icon"            href="files/img/favicon.ico"        type="image/x-icon">
     <script type="text/javascript" src="http://api4.mapy.cz/loader.js"></script>-->
@@ -37,19 +36,27 @@
   </head>
   
   <body>
-    <div id="navigator">
-      <ul>
-        <li><a href="index">O nás</a></li>
-        <li><a href="sluzby">Sluzby</a></li>
-        <li><a href="vybaveni">Technické vybavení</a></li>
-        <li><a href="kontakty">Kontakty</a></li>
-      </ul>
-      <ul><!-- class="nav navbar-nav navbar-right">-->
-        <li><a href="mailto:solanskydoprava@quick.cz">solanskyzdenek@quick.cz</a></li>
-        <li id="tel"><span>TEL: 724 178 909</span></li> <!-- class="navbar-text"-->
-      </ul>
+    <div id="navigator" class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Solanský s.r.o.</a>
+        </div> <!-- div navbar-header -->
+        <div class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">O nás</a></li>
+            <li><a href="sluzby.html">Sluzby</a></li>
+            <li><a href="vybaveni.html">Technické vybavení</a></li>
+            <li><a href="kontakty.html">Kontakty</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="mailto:solanskydoprava@quick.cz">solanskydoprava@quick.cz</a></li>
+            <li id="tel" class="navbar-text"><span>TEL: 724 178 909</span></li>
+          </ul>
+        </div><!-- div navbar-collapse -->
+      </div><!-- div container -->
     </div><!-- div navigator -->
-    <div id="onas">
+    <div id="onas" class="container">
+      
       <h1>O firmě</h1>
       <p>
         Firma Zdeněk Solanský - autodoprava byla založena v roce 1991.
@@ -85,7 +92,7 @@
               var options = {};
               var marker = new SMap.Marker(center, "Solanska", options);
               layer.addMarker(marker);</script>-->
-          <div id="paticka">
+          <div id="paticka" class="modal-footer">
             <p>
               <a href="mailto:solanskydoprava@quick.cz">&copy; 2013 Solanský s.r.o</a> &nbsp;|&nbsp; 
               <a href="mailto:magiess@volny.cz">design&amp;code: magiess</a>

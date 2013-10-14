@@ -1,0 +1,28 @@
+
+dt {
+  font-weight: bold;
+  font-variant: small-caps;
+/*  color: #800000 ;   margin-right: 10px;*/
+}
+
+
+/* ---------------------------- horní lišta */
+
+  #tel span {
+    -webkit-transition: all 0s;  /* Saf3.2+, Chrome */
+    -moz-transition: all 0s;  /* FF4+ */
+    -ms-transition: all 0s;  /* IE10 */
+    -o-transition: all 0s;  /* Opera 10.5+ */
+    transition: all 0s;
+    background-color: inherit;
+    color: inherit;
+  }
+
+  #tel span:hover,
+  #tel span:focus,
+  #tel span:active {
+    color: #fff ;
+  }
+
+
+

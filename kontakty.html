@@ -28,8 +28,8 @@
     <!--<meta name="viewport" content="width=device-width, initial-scale=0.6" /> zjistit, co toto je! -->
     <meta name="ICBM" content="49.4630311, 18.0917572" />
    
-    <!--<link rel="stylesheet"      href="files/css/bootstrap.min.css"  type="text/css" />
-    <link rel="stylesheet"      href="files/css/solanska.css"       type="text/css" />
+    <link rel="stylesheet"      href="files/css/bootstrap.min.css"  type="text/css" />
+    <link rel="stylesheet"      href="files/css/solanskysro.css"       type="text/css" /><!--
     <link rel="shortcut icon"   href="files/img/favicon.ico"        type="image/x-icon" />
     <link rel="icon"            href="files/img/favicon.ico"        type="image/x-icon">
     <script type="text/javascript" src="http://api4.mapy.cz/loader.js"></script>-->
@@ -38,103 +38,122 @@
   </head>
   
   <body>
-    <div id="navigator">
-      <ul>
-        <li><a href="index">O nás</a></li>
-        <li><a href="sluzby">Sluzby</a></li>
-        <li><a href="vybaveni">Technické vybavení</a></li>
-        <li><a href="kontakty">Kontakty</a></li>
-      </ul>
-      <ul><!-- class="nav navbar-nav navbar-right">-->
-        <li><a href="mailto:solanskydoprava@quick.cz">solanskyzdenek@quick.cz</a></li>
-        <li id="tel"><span>TEL: 724 178 909</span></li> <!-- class="navbar-text"-->
-      </ul>
+    <div id="navigator" class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Solanský s.r.o.</a>
+        </div> <!-- div navbar-header -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">O nás</a></li>
+            <li><a href="sluzby.html">Sluzby</a></li>
+            <li><a href="vybaveni.html">Technické vybavení</a></li>
+            <li class="active"><a href="kontakty.html">Kontakty</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="mailto:solanskydoprava@quick.cz">solanskydoprava@quick.cz</a></li>
+            <li id="tel" class="navbar-text"><span>TEL: 724 178 909</span></li>
+          </ul>
+        </div><!-- div navbar-collapse -->
+      </div><!-- div container -->
     </div><!-- div navigator -->
     <div id="kontakty">
-      <h1>Kontakty</h1>
-      <address>
-        <dl>
-          <dt></dt>
-          <dd>Sídlo firmy / Prodej materiálu:</dd>
-          <dt>adresa</dt>
-          <dd>Vigantice 278</dd>
-          <dt></dt>
-          <dd>Centrála</dd>
-          <dt>adresa</dt>
-          <dd>Tylovice 2050</dd>
-          <dt></dt>
-          <dd>756 61 Rožnov pod Radhoštěm</dd>
-          <dt>web</dt>
-          <dd>www.solanskysro.cz</dd>
-          <dt>Tel</dt>
-          <dd>571 656 444</dd>
-          <dt>fax</dt>
-          <dd>571 656 444</dd>
-        </dl>
-        <dl>
-          <dt></dt>
-          <dd>Zdeněk Solanský</dd>
-          <dt></dt>
-          <dd>jednatel společnosti</dd>
-          <dt>Mobil</dt>
-          <dd>602 728 613</dd>
-          <dt>Tel.</dt>
-          <dd>571 656 444</dd>
-          <dt>e-mail</dt>
-          <dd>solanskyzdenek@quick.cz</dd>
-        </dl>
-        <dl>
-          <dt></dt>
-          <dd>Zdeněk Krhut</dd>
-          <dt></dt>
-          <dd>vedoucí dispečer mezinárodní a vnirostátní přepravy</dd>
-          <dt>Mobil</dt>
-          <dd>724 178 909</dd>
-          <dt>Tel.</dt>
-          <dd>571 656 440</dd>
-          <dt>e-mail</dt>
-          <dd>solanskydoprava@quick.cz</dd>
-        </dl>
-        <dl>
-          <dt></dt>
-          <dd>Václav Zářický</dd>
-          <dt></dt>
-          <dd>dispečer mezinárodní přepravy</dd>
-          <dt>Mobil</dt>
-          <dd>724 501 405</dd>
-          <dt>email</dt>
-          <dd>solanskydoprava@quick.cz</dd>
-        </dl>
-        <dl>
-          <dt></dt>
-          <dd>Martin Solanský</dd>
-          <dt></dt>
-          <dd>vedoucí servisu</dd>
-          <dt>Mobil</dt>
-          <dd>602 575 025</dd>
-          <dt>e-mail</dt>
-          <dd>martin.solansky@gmail.com</dd>
-        </dl>
-        <dl>
-          <dt></dt>
-          <dd>Rudolf Vajgl</dd>
-          <dt></dt>
-          <dd>dispečer vnitrostátní přepravy, fakturace</dd>
-          <dt>Mobil</dt>
-          <dd>724 124 705</dd>
-          <dt>e-mail</dt>
-          <dd>rudavajgl@gmail.com</dd>
-          <dt></dt>
-        </dl>
-        <dl>
-          <dd>Ivana Solanská</dd>
-          <dt></dt>
-          <dd>vedení účetnictví, fakturace</dd>
-          <dt>Mobil</dt>
-          <dd>724 178 910</dd>
-        </dl>
-        <dl>
+      <div class="container">
+        <h1>Kontakty</h1>
+        <address>
+          <div class="container col-md-6">
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Sídlo firmy / Prodej materiálu:</dd>
+            <dt>adresa</dt>
+            <dd>Vigantice 278</dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Zdeněk Solanský</dd>
+            <dt></dt>
+            <dd>jednatel společnosti</dd>
+            <dt>Mobil</dt>
+            <dd>602 728 613</dd>
+            <dt>Tel.</dt>
+            <dd>571 656 444</dd>
+            <dt>e-mail</dt>
+            <dd>solanskyzdenek@quick.cz</dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Zdeněk Krhut</dd>
+            <dt></dt>
+            <dd>vedoucí dispečer mezinárodní a vnirostátní přepravy</dd>
+            <dt>Mobil</dt>
+            <dd>724 178 909</dd>
+            <dt>Tel.</dt>
+            <dd>571 656 440</dd>
+            <dt>e-mail</dt>
+            <dd>solanskydoprava@quick.cz</dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Václav Zářický</dd>
+            <dt></dt>
+            <dd>dispečer mezinárodní přepravy</dd>
+            <dt>Mobil</dt>
+            <dd>724 501 405</dd>
+            <dt>email</dt>
+            <dd>solanskydoprava@quick.cz</dd>
+          </dl>
           
+        </div><!-- class="container col-md-6">-->
+          <div class="container col-md-6">
+          
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Centrála</dd>
+            <dt>adresa</dt>
+            <dd>Tylovice 2050</dd>
+            <dt></dt>
+            <dd>756 61 Rožnov pod Radhoštěm</dd>
+            <dt>web</dt>
+            <dd>www.solanskysro.cz</dd>
+            <dt>Tel</dt>
+            <dd>571 656 444</dd>
+            <dt>fax</dt>
+            <dd>571 656 444</dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Martin Solanský</dd>
+            <dt></dt>
+            <dd>vedoucí servisu</dd>
+            <dt>Mobil</dt>
+            <dd>602 575 025</dd>
+            <dt>e-mail</dt>
+            <dd>martin.solansky@gmail.com</dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt></dt>
+            <dd>Rudolf Vajgl</dd>
+            <dt></dt>
+            <dd>dispečer vnitrostátní přepravy, fakturace</dd>
+            <dt>Mobil</dt>
+            <dd>724 124 705</dd>
+            <dt>e-mail</dt>
+            <dd>rudavajgl@gmail.com</dd>
+            <dt></dt>
+          </dl>
+          <dl class="dl-horizontal">
+            <dd>Ivana Solanská</dd>
+            <dt></dt>
+            <dd>vedení účetnictví, fakturace</dd>
+            <dt>Mobil</dt>
+            <dd>724 178 910</dd>
+          </dl>
+          <dl>
+        </div><!-- class="container col-md-6">-->
+        </address>
+      </div><!-- div class="container"-->
+      <div class="container">
+            
         <form ACTION="http://tools.ic.cz/mailform.php" METHOD="post">
           <INPUT TYPE="hidden" NAME="_PRO_" VALUE="solanskysro@ic.cz" />
           <INPUT TYPE="hidden" NAME="_ODESLANO_" VALUE="true" />
@@ -166,9 +185,10 @@
             </tr>
           </table>
         </form>
+      </div><!-- div container -->
     </div><!-- div kontakty -->
 
-    <footer>
+    <footer class="container modal-footer">
             <!--<div id="map-canvas" ></div>
               <script type="text/javascript">
               var center = SMap.Coords.fromWGS84(18.0917572, 49.4630311);
@@ -186,7 +206,13 @@
           <div id="paticka">
             <p>
               <a href="mailto:solanskydoprava@quick.cz">&copy; 2013 Solanský s.r.o</a> &nbsp;|&nbsp; 
-              <a href="mailto:magiess@volny.cz">design&amp;code: magiess</a>
+              <a href="mailto:magiess@volny.cz">design&amp;code: magiess</a> &nbsp;|&nbsp; 
+                 Najděte si nás na mapě: 
+                <a href="http://www.mapy.cz/#z=15&q=solansk%C3%BD%20s.r.o&qp=17.744717_49.556731_17.751709_49.560937_16&t=s&x=18.165071&y=49.448204&c=23-14-30-28-29-27&d=firm_1328546_0_1" target="_blank">Tylovice</a> - 
+                <a href="http://www.mapy.cz/#z=15&q=solansk%C3%BD%20s.r.o&qp=17.744717_49.556731_17.751709_49.560937_16&t=s&x=18.185215&y=49.445176&c=23-31-14-30-28-29-27&d=firm_2594970_0_2" target="_blank"> Vigantice </a> | 
+                <a href="http://www.firmy.cz/detail/1328546-solansky-s-r-o-roznov-pod-radhostem.html" target="_blank">
+                  Více informací na <img src="http://www.mapy.cz/firmpoi/img/logo-firmy-detail.png"></a> | 
+
             </p>
           </div> <!--div patička -->
       </div> <!-- div container -->
