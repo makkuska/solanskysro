@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="cs-cz" dir="ltr">
   <head>
@@ -27,14 +26,18 @@
     <meta name="author"   content="Solanský" />
     <!--<meta name="viewport" content="width=device-width, initial-scale=0.6" /> zjistit, co toto je! -->
     <meta name="ICBM" content="49.4630311, 18.0917572" />
-   
     <link rel="stylesheet"      href="files/css/bootstrap.min.css"  type="text/css" />
-    <link rel="stylesheet"      href="files/css/solanskysro.css"       type="text/css" />
-    <link rel="shortcut icon"   href="files/img/favicon.ico"        type="image/x-icon" /><!--
+    <link rel="stylesheet"      href="files/css/carousel.css"  type="text/css" />
+    <link rel="stylesheet"      href="files/css/solanskysro.css"       type="text/css" /><!--
+    <link rel="shortcut icon"   href="files/img/favicon.ico"        type="image/x-icon" />
     <link rel="icon"            href="files/img/favicon.ico"        type="image/x-icon">
     <script type="text/javascript" src="http://api4.mapy.cz/loader.js"></script>-->
+   
+    <script src="files/js/jquery.js"></script>
+    <script src="files/js/bootstrap.min.js"></script>
+    <script src="files/js/holder.js"></script>   
     
-    <title>Solanský s.r.o. Nákladní autodoprava | Technické vybavení</title>
+    <title>Solanský s.r.o. Nákladní autodoprava | O nás</title>
   </head>
   
   <body>
@@ -45,9 +48,9 @@
         </div> <!-- div navbar-header -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="onas.html">O nás</a></li>
+            <li class="active"><a href="onas.html">O nás</a></li>
             <li><a href="sluzby.html">Sluzby</a></li>
-            <li class="active"><a href="vybaveni.html">Technické vybavení</a></li>
+            <li><a href="vybaveni.html">Technické vybavení</a></li>
             <li><a href="kontakty.html">Kontakty</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -58,18 +61,30 @@
       </div><!-- div navigator -->
     </div><!-- div container -->
 
-    <div id="vybaveni" class="container">
-      <h1>Technické vybavení</h1>
-      <ul>	
-        <li>30 nákladních vozidel - značky VOLVO, MAN, MERCEDES</li>
-        <li>20 velkoobjemových sklápěcích návěsů (40 - 60m2)</li>
-        <li>5 sklápěcích návěsů 30m2</li>
-        <li>5x souprava návěs + auto</li>
-        <li>návěs s posuvnou podlahou (walking floor)</li>
-      </ul>
+
+    <div id="onas" class="container">
+      
+      <h1>O firmě</h1>
+      <p>
+        Firma Zdeněk Solanský - autodoprava byla založena v roce 1991.
+        Nejprve se zabývala převážně přepravou kameniva a štěrku. Krok
+        vpřed nastal v roce 2003, kdy byla založena firma SOLANSKÝ s.r.o..
+        Nově vzniklý subjekt převzal všechny aktivity vyplývající z
+        předchozí činnosti a svoje pole působnosti rozšířil o přepravu
+        velkoobjemových sklápěcích návěsů a návěsů s posuvnou podlahou
+        (walking floor).<br />
+
+        V současnosti provádíme přepravu do všech států EU a také do států
+        mimo EU, jako jsou například Chorvatsko, Černá Hora, Albánie,
+        Bosna a Hercegovina a další státy.<br />
+
+        Dnes firma vlastní 30 nákladních automobilů, z toho 20
+        velkoobjemových sklápěcích návěsů, a zabývá se prodejem kameniva,
+        štěrku a písku.
+      </p>
     </div><!-- div onas -->
 
-    <footer class="modal-footer">
+    <footer>
             <!--<div id="map-canvas" ></div>
               <script type="text/javascript">
               var center = SMap.Coords.fromWGS84(18.0917572, 49.4630311);
@@ -84,7 +99,7 @@
               var options = {};
               var marker = new SMap.Marker(center, "Solanska", options);
               layer.addMarker(marker);</script>-->
-          <div id="paticka">
+          <div id="paticka" class="modal-footer">
             <p>
               <a href="mailto:solanskydoprava@quick.cz">&copy; 2013 Solanský s.r.o</a> &nbsp;|&nbsp; 
               <a href="mailto:magiess@volny.cz">design&amp;code: magiess</a>

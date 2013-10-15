@@ -5,6 +5,21 @@ dt {
 /*  color: #800000 ;   margin-right: 10px;*/
 }
 
+.navbar {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.navbar-default {
+ background-color: #428bca;
+ border-color: #357ebd;
+}
+
+.active > a {
+background-color:#357EBD;
+}
+
+
 
 /* ---------------------------- horní lišta */
 
