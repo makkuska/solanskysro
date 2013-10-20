@@ -1,0 +1,21 @@
+<div id="mapa" ></div>
+
+<script type="text/javascript">
+  var center = SMap.Coords.fromWGS84(18.1745281, 49.4474136);
+  var tylovice = SMap.Coords.fromWGS84(18.1619497, 49.4483494);
+  var vigantice = SMap.Coords.fromWGS84(18.1834197, 49.4446231);
+  var m = new SMap(JAK.gel("mapa"), center, 12);
+  m.addDefaultLayer(SMap.DEF_BASE).enable();
+    m.addDefaultControls();
+
+  var layer = new SMap.Layer.Marker();
+  m.addLayer(layer);
+  layer.enable();
+
+  var options = {};
+  var tyl_marker = new SMap.Marker(tylovice, "Solanský s.r.o. | Tylovce", options);
+  layer.addMarker(tyl_marker);
+  var vig_marker = new SMap.Marker(vigantice, "Solanský s.r.o. | Vigantice", options);
+  layer.addMarker(vig_marker);
+
+</script>
