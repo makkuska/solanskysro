@@ -1,12 +1,17 @@
 body {
   color: #4A5A5A; 
   padding-bottom: 5px;
+  font-size: 16px;
 }
+footer {  
+font-size: 14px}
 #box {
   box-shadow:rgba(0, 0, 0, 0.2) 0 0 10px;
+  border-radius: 4px 4px 0px 0px;
+  margin-top: 10px;
 }
+
 /*.container {
- background-color: #f8f8ff;
  }*/
 
 #sidlo {
@@ -24,10 +29,6 @@ body {
  padding-right:20px;
  }
 
-footer .container {
- background-color: #000066;
-}
-
 dt {
   font-weight: bold;
   font-variant: small-caps;
@@ -40,11 +41,19 @@ dt {
   margin-left: 100px;
   }
 .opacity .navbar {
-  opacity:0.8;
+  opacity:1;
   }
+ .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+/* ---------------------------- navbar */
 .navbar {
-  margin-top: 8px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 16px;
   color: #ffffff;
   border-color: #000043
@@ -76,44 +85,36 @@ dt {
  color: #fff;
  }
 
-/* ---------------------------- jumbotron */
+/* ---------------------------- carousel */
 .carousel {
     margin-bottom: 0px;
-    margin-top: -90px;
+    margin-top: -2px;
+    height: 350px;
 }
- .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-}
+.carousel-inner > .item > img {
+    height: 350px;
+  }
+.carousel .item {
+    background-color: #777777;
+    height: 350px;
+  }
+
+/* ---------------------------- jumbotron */
 .jumbotron {
     padding-bottom: 8px;
     padding-top: 90px;
 }
+
 .container .jumbotron {
     border-radius: 0px 0px 0px 0px;
-}
-.jumbotron h1, .jumbotron h2 {
-    color: #FFFFFF;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    position: relative;
-    top: -85px;
-    right: 60px;
-    font-variant: small-caps;
-}
-.container .jumbotron {
     background-image:url('../img/menu.png');
     background-color:#FFFFFF;
     text-align: right;
     height: 107px;
     margin-top: -2px;
-  }
-  
-.navbar {
     margin-bottom: 0px;
   }
-
+  
 /* ---------------------------- horní lišta -- vpravo */
   .navbar-right:last_child > li > a {
   padding-right:15px;
@@ -149,6 +150,9 @@ dt {
 
 
 /* ---------------------------- footer */
+  footer a {
+    text-align: left;
+  }
   #mapa {
     height:200px; 
     width:600px;
