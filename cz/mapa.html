@@ -1,0 +1,29 @@
+<div id="mapa" ></div>
+
+<script type="text/javascript">
+  var center = SMap.Coords.fromWGS84(18.1562908, 49.4550208);
+  var tylovice = SMap.Coords.fromWGS84(18.1619497, 49.4483494);
+  var vigantice = SMap.Coords.fromWGS84(18.1834197, 49.4446231);
+  var m = new SMap(JAK.gel("mapa"), center, 11);
+  m.addDefaultLayer(SMap.DEF_BASE).enable();
+    m.addDefaultControls();
+
+  var layer = new SMap.Layer.Marker();
+  m.addLayer(layer);
+  layer.enable();
+  
+  var options = {};
+
+  var tyl_card = new SMap.Card();
+  tyl_card.getHeader().innerHTML = "Tylovice 2050, Rožnov pod Radhoštěm";
+  var tyl_marker = new SMap.Marker(tylovice, "Solanský s.r.o. | Tylovice", options);
+  tyl_marker.decorate(SMap.Marker.Feature.Card, tyl_card);
+  layer.addMarker(tyl_marker);
+  
+  var vig_card = new SMap.Card();
+  vig_card.getHeader().innerHTML = "Vigantice 278";
+  var vig_marker = new SMap.Marker(vigantice, "Solanský s.r.o. | Vigantice", options);
+  vig_marker.decorate(SMap.Marker.Feature.Card, vig_card);
+  layer.addMarker(vig_marker);
+
+</script>

@@ -154,7 +154,11 @@ dt {
     text-align: left;
   }
   #mapa {
-    height:200px; 
+    height:230px; 
     width:600px;
   }
 
+  #map {
+    height:270px; 
+    width:600px;
+  }

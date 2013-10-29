@@ -1,0 +1,32 @@
+  <div id="kontakt_nas" class="container container-padding">
+    <h2 class="page-header">Kontaktujte nás</h2>
+    <form ACTION="http://tools.ic.cz/mailform.php" METHOD="post" class="form-horizontal" role="form">
+      <INPUT TYPE="hidden" NAME="_PRO_" VALUE="solanskysro@ic.cz" />
+      <INPUT TYPE="hidden" NAME="_ODESLANO_" VALUE="true" />
+       <div class="form-group">
+         <label for="odesilatel_mail" class="col-lg-2 control-label">Váš email:</label>         
+          <div class="col-lg-4">   
+            <input type="text" name="_ODESILATEL_" id="odesilatel_mail" size="30" maxlength="30" class="form-control" placeholder="zadejte email" />
+            </div>
+       </div>
+       <div class="form-group">
+          <label for="predmet"  class="col-lg-2 control-label">Předmět:</label></td>
+          <div class="col-lg-4">   
+          <input type="text" name="_PREDMET_" id="predmet" size="30" maxlength="60" class="form-control" />
+            </div>
+       </div>
+       <div class="form-group">
+          <label for="vzkaz" class="col-lg-2 control-label">Vzkaz:</label></td>
+          <div class="col-lg-4">   
+          <textarea id="vzkaz"cols="33" rows="3" name="text" class="form-control"></textarea>
+            </div>
+       </div>
+       <div class="form-group">
+          <INPUT TYPE="hidden" NAME="_RETURN_SITE_" VALUE="kontakty.html" />
+          <div class="col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">   
+          <input type="submit" class="btn btn-info" />
+            </div>
+       </div>
+          
+    </form>
+  </div><!--kontakt_nas -->
