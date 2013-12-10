@@ -1,32 +1,48 @@
   <div id="kontakt_nas" class="container container-padding">
     <h2 class="page-header">Contact us</h2>
-    <form ACTION="http://tools.ic.cz/mailform.php" METHOD="post" class="form-horizontal" role="form">
+    <form ACTION="http://tools.ic.cz/mailform.php" 
+      METHOD="post" class="form-horizontal" role="form">
       <INPUT TYPE="hidden" NAME="_PRO_" VALUE="solanskysro@ic.cz" />
       <INPUT TYPE="hidden" NAME="_ODESLANO_" VALUE="true" />
-       <div class="form-group">
-         <label for="odesilatel_mail" class="col-lg-2 control-label">E-mail address:</label>         
-          <div class="col-lg-4">   
-            <input type="text" name="_ODESILATEL_" id="odesilatel_mail" size="30" maxlength="30" class="form-control" placeholder="enter your email address" />
-            </div>
+        <div class="form-group">
+          <label for="odesilatel_mail"
+           class="col-lg-2 col-md-2 col-sm-2 control-label">
+           E-mail address:
+          </label>         
+         <div class="col-lg-6 col-md-6 col-sm-8">   
+           <input type="email" name="_ODESILATEL_" id="odesilatel_mail" 
+           size="30" maxlength="30" class="form-control" 
+           placeholder="enter your email address" required />
+         </div>
        </div>
        <div class="form-group">
-          <label for="predmet"  class="col-lg-2 control-label">Subject:</label></td>
-          <div class="col-lg-4">   
-          <input type="text" name="_PREDMET_" id="predmet" size="30" maxlength="60" class="form-control" />
-            </div>
+         <label for="predmet"  
+           class="col-lg-2 col-md-2 col-sm-2 control-label">
+           Subject:
+         </label>
+         <div class="col-lg-6 col-md-6 col-sm-8">   
+           <input type="text" name="_PREDMET_" id="predmet" size="30" 
+           maxlength="60" class="form-control" 
+           placeholder="enter a subject" required/>
+         </div>
        </div>
        <div class="form-group">
-          <label for="vzkaz" class="col-lg-2 control-label">Text of your query:</label></td>
-          <div class="col-lg-4">   
-          <textarea id="vzkaz"cols="33" rows="3" name="text" class="form-control"></textarea>
-            </div>
+         <label for="vzkaz" 
+           class="col-lg-2 col-md-2 col-sm-2 control-label">
+           Text of your query:
+         </label>
+         <div class="col-lg-6 col-md-6 col-sm-8">   
+           <textarea id="vzkaz"cols="33" rows="6" name="text" 
+             class="form-control" placeholder="write a message" 
+             required/></textarea>
+         </div>
        </div>
        <div class="form-group">
-          <INPUT TYPE="hidden" NAME="_RETURN_SITE_" VALUE="http://www.solanskysro.cz/#" />
-          <div class="col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">   
-          <input type="submit" class="btn btn-info" value="Submit" />
-            </div>
+         <INPUT TYPE="hidden" NAME="_RETURN_SITE_" 
+         VALUE="kontakty.html" />
+         <div class="col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">
+           <input type="submit" class="btn btn-info" value="Submit" />
+         </div>
        </div>
-          
     </form>
   </div><!--kontakt_nas -->

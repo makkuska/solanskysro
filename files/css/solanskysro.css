@@ -51,7 +51,10 @@ dt {
   }
 
 /* ---------------------------- navbar */
-.navbar {
+#navigator .navbar-collapse {
+  border-radius: 10px 10px 10px 10px;
+}
+  .navbar {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 16px;
@@ -73,8 +76,12 @@ dt {
 .navbar .navbar-header > .navbar-brand > a,
 .navbar .navbar-header > .navbar-brand > a:hover,
 .navbar .navbar-header > .navbar-brand > a:focus {
- background-color:#428BCA;
+ background-color: #357edb;
  }
+ .navbar-nav > li > a {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
 
 .navbar-inverse .navbar-nav > li > a:hover {
  background-color:#357EBD;
@@ -88,7 +95,7 @@ dt {
 /* ---------------------------- carousel */
 .carousel {
     margin-bottom: 0px;
-    margin-top: -2px;
+    margin-top: 0px;
     height: 350px;
 }
 .carousel-inner > .item > img {
@@ -113,6 +120,24 @@ dt {
     height: 107px;
     margin-top: -2px;
     margin-bottom: 0px;
+  }
+  .btn-primary {
+    background-color: #000066;
+    border-color: #000066;
+    color: #FFFFFF;
+ }
+
+  .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #357edb; 
+    border-color: #2d2db3;
+    color: #FFFFFF;
+  }
+  .carousel-indicators li {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 12px;
+  }
+  .carousel-indicators .active {
+    background-color: #000066;
   }
   
 /* ---------------------------- horní lišta -- vpravo */
@@ -162,3 +187,7 @@ dt {
     height:270px; 
     width:600px;
   }
+
+ footer img {
+  padding: 6px;
+ }
