@@ -1,6 +1,3 @@
-solanska-ucetnictvi
+www.solanskysro.cz
 ===================
-Web Jany Solanské, externí účetní. 
-=======
-Jana Solanská. Nabízím kompletní zpracování a vedení daňové evidence, dále zpracování a vedení účetnictví pro právnické i fyzické osoby a zpracování mezd. Sídlo: Hamerská 15, Zubří.
-
+Solanský s.r.o. - Nákladní autodoprava | Nabízíme prodej sypkých materiálů, vnitrostátní a  mezinárodní přepravu sypkých materiálů, sklápěcí soupravy a návěsy.
