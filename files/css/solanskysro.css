@@ -3,21 +3,26 @@ body {
   padding-bottom: 5px;
   font-size: 16px;
 }
+
 footer {  
-font-size: 14px}
-#box {
+ font-size: 14px
+ }
+
+ #box {
   box-shadow:rgba(0, 0, 0, 0.2) 0 0 10px;
   border-radius: 4px 4px 0px 0px;
   margin-top: 10px;
-}
+  }
 
-/*.container {
- }*/
+#navigator {
+  background-color: #000066;
+  border-radius: 4px 4px 0px 0px;
+  }
 
 #sidlo {
   margin-left: auto;
   margin-right: auto;
-}
+  }
 
 .container-padding h1, .container-padding h2, .container-padding p, .container-padding form{
  padding-left:20px;
@@ -32,43 +37,58 @@ font-size: 14px}
 dt {
   font-weight: bold;
   font-variant: small-caps;
-/*  color: #800000 ;   margin-right: 10px;*/
-}
+  }
+
 #sidlo .dl-horizontal dt {
   width: 80px;
   }
+
 #sidlo .dl-horizontal dd {
   margin-left: 100px;
   }
+
+.dl-horizontal dd {
+  margin-left: 30%;
+  }
+.dl-horizontal dt {
+  width: 25%;
+  }
+
 .opacity .navbar {
   opacity:1;
   }
- .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0px;
-    padding-right: 0px;
+ 
+#sluzby img {
+  height: 150px;
+  width: 200px;
+  }  
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
   }
 
 /* ---------------------------- navbar */
 #navigator .navbar-collapse {
   border-radius: 10px 10px 10px 10px;
-}
-  .navbar {
+  }
+
+.navbar {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 16px;
   color: #ffffff;
   border-color: #000043
-}
+  }
 
 .navbar .navbar-brand {
   font-size: 20px;
   color: #ffffff;
 }
 .navbar-default, .navbar-default > li > a {
- background-color: #000066;
-}
+  background-color: #000066;
+  }
 
 .navbar .navbar-nav > .active > a, 
 .navbar .navbar-nav > .active > a:hover, 
@@ -81,7 +101,7 @@ dt {
  .navbar-nav > li > a {
     padding-bottom: 16px;
     padding-top: 16px;
-}
+    }  
 
 .navbar-inverse .navbar-nav > li > a:hover {
  background-color:#357EBD;
@@ -94,85 +114,68 @@ dt {
 
 /* ---------------------------- carousel */
 .carousel {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: 350px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 350px;
 }
 .carousel-inner > .item > img {
-    height: 350px;
+  height: 100%;
   }
+
 .carousel .item {
-    background-color: #777777;
-    height: 350px;
+  background-color: #777777;
+  height: 350px;
   }
 
 /* ---------------------------- jumbotron */
 .jumbotron {
-    padding-bottom: 8px;
-    padding-top: 90px;
-}
+  padding-bottom: 8px;
+  padding-top: 90px;
+  }
 
 .container .jumbotron {
-    border-radius: 0px 0px 0px 0px;
-    background-image:url('../img/menu.png');
-    background-color:#FFFFFF;
-    text-align: right;
-    height: 107px;
-    margin-top: -2px;
-    margin-bottom: 0px;
+  border-radius: 0px 0px 0px 0px;
+  background-image:url('../img/menu.png');
+  background-color:#FFFFFF;
+  text-align: right;
+  height: 107px;
+  margin-top: -2px;
+  margin-bottom: 0px;
   }
+  
   .btn-primary {
     background-color: #000066;
     border-color: #000066;
     color: #FFFFFF;
- }
+    }
 
   .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #357edb; 
     border-color: #2d2db3;
     color: #FFFFFF;
-  }
+    }
   .carousel-indicators li {
     border: 1.5px solid #FFFFFF;
     border-radius: 12px;
-  }
+    }
   .carousel-indicators .active {
     background-color: #000066;
-  }
+    }
   
 /* ---------------------------- horní lišta -- vpravo */
-  .navbar-right:last_child > li > a {
+.navbar-right:last_child > li > a {
   padding-right:15px;
-}
+  }
   
-    .navbar-right > li > a {
+.navbar-right > li > a {
   padding-right:5px;
   padding-left:5px;
   }
 
-  .navbar-text {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-/*  #tel span {
-    -webkit-transition: all 0s;  /* Saf3.2+, Chrome */
-   /* -moz-transition: all 0s;  /* FF4+ */
-    /*-ms-transition: all 0s;  /* IE10 */
-  /*  -o-transition: all 0s;  /* Opera 10.5+ */
-   /* transition: all 0s;
-   /* background-color: inherit;
-    color: #999999;;
-  }
-
-  #tel span:hover,
-  #tel span:focus,
-  #tel span:active {
-    background-color:#357EBD;
-    border-color:  #000;
-    margin:0px ;
-  }*/
-
+.navbar-text {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 /* ---------------------------- footer */
   footer a {
@@ -180,12 +183,12 @@ dt {
   }
   #mapa {
     height:230px; 
-    width:600px;
+    width:100%;
   }
 
   #map {
     height:270px; 
-    width:600px;
+    width:100%;
   }
 
  footer img {
