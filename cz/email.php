@@ -8,11 +8,11 @@
   
   <body>
     <div id="box" class="container">
-    <?php include_once("header.html") ?>
+      <?php include_once("header.html") ?>
 
     <?php
       //seznam mailů, na které se zpráva odešle
-      $email = 'marketa.solanska@gmail.com';
+      $email = 'zdenek.solansky@gmail.com, ondrej.solansky@gmail.com, marketa.solanska@gmail.com';
       //proměnné naplněné z formáře kontaktujte_nas.html
       $zprava = $_POST['zprava'];
       $predmet = $_POST['predmet'];
