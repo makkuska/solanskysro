@@ -1,0 +1,45 @@
+<!-- NAVIGACE
+index.php 
+onas.php 
+sluzby.php
+vybaveni.php
+kontakty.php -->
+
+<!DOCTYPE html>
+<html lang="cs-cz" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <?php include_once("head.html") ?>
+    <title>Solanský s.r.o. Nákladní autodoprava | O nás</title>
+  </head>
+  
+  <body>
+    <div id="box" class="container">
+      <?php include_once("header.html") ?>
+
+      <div class="jumbotron">
+      </div> <!-- class="jumbotron" -->
+
+      <div id="onas" class="container container-padding">
+        <h1 class="page-header">O firmě</h1>
+        <p>
+          Firma <strong> Zdeněk Solanský - autodoprava </strong> byla založena v roce 1991.
+          Nejprve se zabývala převážně přepravou kameniva a štěrku. Krok
+          vpřed nastal v <strong>roce 2003</strong>, kdy byla založena firma <strong>SOLANSKÝ s.r.o.</strong>
+          Nově vzniklý subjekt převzal všechny aktivity vyplývající z
+          předchozí činnosti a svoje pole působnosti rozšířil o přepravu
+          velkoobjemových sklápěcích návěsů a návěsů s posuvnou podlahou
+          (walking floor).
+        </p><p>
+          V současnosti firma vlastní 30 nákladních automobilů, z toho 20
+          velkoobjemových sklápěcích návěsů, a <strong>provádí přepravu </strong>do všech států EU a také do států
+          mimo EU, jako jsou například Chorvatsko, Černá Hora, Albánie,
+          Bosna a Hercegovina a další státy.</br>
+          Další činností firmy je <strong>prodej kameniva, štěrku a písku</strong>.
+        </p>
+      </div><!-- div onas -->
+      <?php include_once("footer.html") ?>
+
+    </div> <!-- id="box" class="container" -->
+  </body> 
+</html>

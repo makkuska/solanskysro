@@ -1,24 +1,31 @@
 
-  <div id="navigator" class="navbar navbar-default" role="navigation">
-    <div class="nav navbar-nav navbar-header">
-      <span class="navbar-brand" >SOLANSKÝ s.r.o.</span>
-    </div> <!-- div navbar-header -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-        <!--<li><a href="onas.phtml">O nás</a></li>-->
-        <li><a href="index.phtml">O společnosti</a></li>
-        <li><a href="vozovypark.phtml">Vozový park</a></li>
-        <li><a href="kamenivo.phtml">Prodej kameniva</a></li>
-        <li><a href="reference">Reference</a></li>
-        <li><a href="kontakty.phtml">Kontakty</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../cz/index.phtml">cz</a></li> 
-        <li class="navbar-text">|</li>
-        <li><a href="../en/contacts.phtml">en</a></li>
-        <li class="navbar-text">|</li>
-        <li><a href="../de/index.phtml">de</a></li>
-      </ul>
-    </div><!-- div navbar-collapse -->
-  </div><!-- div navigator -->
+      <?php $active = "" ?>
 
+      <div id="navigator" class="navbar navbar-default" role="navigation">
+        <div class="nav navbar-nav navbar-header">
+          <a class="navbar-brand" href="index.php"><img class="img_nav" src="../files/img/logo/novelogo_bile.png" /></a>
+        </div> <!-- div navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!--<li><a href="onas.php">O nás</a></li>-->
+
+            <li class=<?php if ($name_page == "onas") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href="onas.php">O společnosti</a></li>
+            <li class=<?php if ($name_page == "vozovypark") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href="vozovypark.php">Vozový park</a></li>
+            <li class=<?php if ($name_page == "kamenivo") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href="kamenivo.php">Prodej kameniva</a></li>
+            <li class=<?php if ($name_page == "reference") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href="reference.php">Reference</a></li>
+            <li class=<?php if ($name_page == "kontakty") { $active = "active"; } else { $active = ""; } echo $active ?>>
+                <a href="kontakty.php">Kontakty</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../cz/index.php">cz</a></li> 
+            <li class="navbar-text">|</li>
+            <li><a href="../en/index.php">en</a></li>
+            <li class="navbar-text">|</li>
+            <li><a href="../de/index.php">de</a></li>
+          </ul>
+        </div><!-- div navbar-collapse -->
+      </div>

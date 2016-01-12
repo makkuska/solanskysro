@@ -68,7 +68,14 @@ dt {
 .opacity .navbar {
   opacity:1;
   }
+.navbar-nav {
+}
+.smallmenu{
+    margin: 7.5px 10px;
+}
 
+.img_nav {
+}
 #vozovypark img {
   width: 100%;
   } 
@@ -78,7 +85,7 @@ dt {
   } 
 
 #onas img {
-  width: 40%;
+  width: 100%;
   }
 
 #kontakty span {
@@ -100,6 +107,8 @@ dt {
     height:270px; 
     width:100%;
   }
+
+#url {display: none;}
 
 /* ---------------------------- navbar */
   #navigator .navbar-collapse {
@@ -131,10 +140,11 @@ dt {
     color: #fff;
 }
   .navbar-default .navbar-brand {
-    font-size: 19px;
     color: inherit;
-    padding-bottom: 16px;
-    padding-top: 17px;
+    padding-left: 8;
+    padding-right: 8;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .navbar-nav a, .navbar-nav > li > a {
@@ -183,6 +193,10 @@ dt {
   .carousel .item {
     background-color: #777777;
   }
+   .carousel-caption {
+   text-shadow:rgba(0, 0, 0, 1) 2px 2px 1px;
+   }
+
 
   /* ---------------------------- jumbotron */
   .jumbotron {
@@ -195,7 +209,7 @@ dt {
     background-image:url('../img/menu.png');
     background-color:#FFFFFF;
     text-align: right;
-    height: 107px;
+    height: 106px;
     margin-top: -2px;
     margin-bottom: 0px;
   }
@@ -219,8 +233,8 @@ dt {
     background-color: #000066;
   }
 
-
   /* ---------------------------- footer */
+
   footer a {
     text-align: left;
   }
