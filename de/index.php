@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="de-DE" dir="ltr">
+  <?php $rootpath = "../" ?>
+  <?php $czpath = "../cz/" ?>
+  <?php $enpath = "../en/" ?>
+  <?php $depath = "" ?>
+  <?php $filespath = "../" ?>
   <head>
     <meta charset="UTF-8" />
-    <?php include_once("head.html") ?>
+    <?php include_once("../head.html") ?>
     <title>Solanský s.r.o. Nákladní autodoprava</title>
   </head>
   

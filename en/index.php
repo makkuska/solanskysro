@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+  <?php $rootpath = ".." ?>
+  <?php $czpath = "../cz/" ?>
+  <?php $enpath = "" ?>
+  <?php $depath = "../de/" ?>
+  <?php $filespath = "../" ?>
   <head>
     <meta charset="UTF-8" />
-      <?php include_once("head.html") ?>
-    <title>Solanský s.r.o. Nákladní autodoprava | Introduction</title>
+      <?php include_once("../head.html") ?>
+    <title>Solanský s.r.o. Nákladní doprava | Introduction</title>
   </head>
   
   <body>
@@ -42,7 +47,6 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>We are offering a wide range <br /> of services</h1>
-<!--              <p> Vnitrostátní a mezinárodní spedice a přeprava sypkých materiálů, opravy silničních vozidel, prodej kameniva, štěrku a písku a další.</p>-->
               <p><a class="btn btn-large btn-primary" href="services.php">More about services</a></p>
             </div>
           </div>
@@ -67,8 +71,8 @@
     <div id="onas" class="container container-padding">
       
       <h1 class="page-header">About company</h1>
+        <?php include_once("aboutcompany.html") ?>
       <p>
-SOLANSKÝ s.r.o. is a Czech company specializing in intranational and international road transport of powdery materials which was founded in 1991. Now, the company owns about 35 tipper trucks that transport the powdery materials to all countries of the European Union as well as other countries, for example Croatia, Albania etc.
       </p>
     </div><!-- div onas -->
     <?php include_once("footer.html") ?>

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-  <?php $name_page = "kamenivo" ?>
-  <?php $name_page_en = "services" ?>
 <html lang="cs-cz" dir="ltr">
+  <?php $name_page = "kamenivo" ?>
+  <?php $rootpath = "../" ?>
+  <?php $czpath = "" ?>
+  <?php $enpath = "../en/" ?>
+  <?php $depath = "../de/" ?>
+  <?php $filespath = "../" ?>
   <head>
     <meta charset="UTF-8" />
-    <?php include_once("head.html") ?>
+    <?php include_once("../head.html") ?>
     <title>SOLANSKÝ s.r.o. Nákladní autodoprava | Prodej kameniva</title>
   </head>
   

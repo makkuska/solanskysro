@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+  <?php $name_page = "contacts" ?>
+  <?php $rootpath = "../" ?>
+  <?php $czpath = "../cz/" ?>
+  <?php $enpath = "" ?>
+  <?php $depath = "../de/" ?>
+  <?php $filespath = "../" ?>
   <head>
     <meta charset="UTF-8" />
-    <?php include_once("head.html") ?>
+    <?php include_once("../head.html") ?>
     <title>Solanský s.r.o. Nákladní autodoprava | Contacts</title>
   </head>
   
@@ -22,7 +28,7 @@
       <div id="kontakty" class="container container-padding">
         <h1 class="page-header">Contacts</h1>
         <div id="sidlo" class="container">
-          <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-offset-1 col-xs-10">
+          <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
             <address>
             <span>Company Headquarters/<br /> Sale of materials:</span>
               <dl class="dl-horizontal">
@@ -50,8 +56,8 @@
               </dl>
             </address>
           </div><!-- class="container col-md-4">-->
-          <div class="col-md-6 col-sm-6 col-xs-offset-1 col-xs-10">
-            <?php include_once("mapa.html") ?>
+          <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+            <?php include_once("../cz/mapa.html") ?>
           </div><!-- class="container col-md-6">-->
         </div><!-- div sidlo  class="container"-->
         
@@ -59,7 +65,7 @@
         
         <div id="osoby" class="container">
           <div class="container">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <dl class="dl-horizontal">
                 <dt></dt>
                 <dd><strong>Zdeněk Solanský</strong></dd>
@@ -73,7 +79,7 @@
                 <dd>solanskyzdenek@quick.cz</dd>
               </dl>
             </div><!-- class="container col-md-6">-->
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <dl class="dl-horizontal">
                 <dt></dt>
                 <dd><strong>Martin Solanský</strong></dd>
@@ -88,7 +94,7 @@
           </div><!-- div container-->
             
           <div class="container">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <dl class="dl-horizontal">
                 <dt></dt>
                 <dd><strong>Zdeněk Krhut</strong></dd>
@@ -102,7 +108,7 @@
                 <dd>solanskydoprava@quick.cz</dd>
               </dl>
             </div><!-- class="container col-md-6">-->
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <dl class="dl-horizontal">
                 <dt></dt>
                 <dd><strong>David Zářický</strong></dd>
@@ -119,7 +125,7 @@
           </div><!-- div container-->
             
           <div class="container">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <dl class="dl-horizontal">
                 <dt></dt>
                 <dd><strong>Rudolf Vajgl</strong></dd>
@@ -131,7 +137,7 @@
                 <dd>rudavajgl@gmail.com</dd>
               </dl>
             </div><!-- class="container col-md-6">-->
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <dl class="dl-horizontal">
                 <dt></dt>
                 <dd><strong>Ivana Solanská</strong></dd>
