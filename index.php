@@ -37,7 +37,7 @@
                 <h1>Převážíme již od roku 1991</h1>
                 <p>Letos slavíme 25. let. Za ta léta jsme vyměnili desítky vozů. Podívejte se,
                 jakým technickým vybavením <br />disponujeme dnes.</p>
-                <p><a class="btn btn-large btn-primary" href="cz/vybaveni.php">Více o technickém vybavení</a></p>
+                <p><a class="btn btn-large btn-primary" href="cz/vozovypark.php">Více o technickém vybavení</a></p>
               </div>
             </div>
           </div>
