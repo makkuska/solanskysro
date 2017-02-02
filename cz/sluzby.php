@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="cs-cz" dir="ltr">
+  <?php $name_page = "sluzby" ?>
+  <?php $rootpath = "../" ?>
+  <?php $czpath = "" ?>
+  <?php $enpath = "../en/" ?>
+  <?php $depath = "../de/" ?>
+  <?php $filespath = "../" ?>
   <head>
     <meta charset="UTF-8" />
-    <?php include_once("head.html") ?>
+    <?php include_once("../head.html") ?>
     <title>Solanský s.r.o. Nákladní autodoprava | Služby</title>
   </head>
   
@@ -23,13 +29,14 @@
         <h1 class="page-header">Nabízíme</h1>
         <p>
           <ul>
-            <li>vnitrostátní a mezinárodní přeprava sypkých materiálů</li>
-            <li>spedice vnitrostátní a mezinárodní</li>
-            <li>opravy silničních vozidel</li>
-            <li>prodej náhradních dílů vozidel</li>
-            <li>prodej kameniva, štěrku a písku:</li>
+            <li><span class="sestnact">vnitrostátní a mezinárodní přeprava sypkých materiálů</span></li>
+                    <li><span class="sestnact">spedice vnitrostátní a mezinárodní</span></li>
+            <li><span class="sestnact">opravy silničních vozidel</span></li>
+            <li><span class="sestnact">prodej náhradních dílů vozidel</span></li>
+            <li><span class="sestnact">prodej kameniva, štěrku a písku - <a href="kamenivo.php">více o prodeji</a> </span></li>
              </ul>
-          
+           </span>
+         <!-- 
           <div class="container">
             <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-5 col-xs-offset-1 text-center">
               <img src=../files/img/kamenivo/DK4-8.JPG alt="DK4-8" />
@@ -59,6 +66,7 @@
               <h5><strong>DK32-63</strong></h5>
             </div>
           </div>
+      -->
       </div><!-- div sluzby -->
       <?php include_once("footer.html") ?>
     </div> <!-- id="box" class="container" -->

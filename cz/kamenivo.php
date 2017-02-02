@@ -60,7 +60,13 @@
       <div id="kamenivo" class="container container-padding">
         <h1 class="page-header">Prodej kameniva</h1>
         <p>
-        <span class="sestnact">Společnost nabízí dopravu a prodej drceného kameniva, těženého kameniva a písku:</span>
+        <span class="sestnact">Společnost nabízí dopravu a prodej drceného kameniva, těženého kameniva a písku.</span>
+        </p>
+        <p>
+        <span>Provozní doba: <strong>PO-PÁ: 7 – 15</strong></span>
+        </p>
+        <p>
+        <span>Kontakt: <strong>+420 777 017 324</strong></span>
         </p>
         <h2>Drcené kamenivo</h2>
         <div class="links container">

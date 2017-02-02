@@ -12,7 +12,7 @@
 
     <?php
       //seznam mailů, na které se zpráva odešle
-      $to = 'zdenek.solansky@gmail.com;
+      $to = 'zdenek.solansky@gmail.com';
       $from = $_POST['odesilatel_mail'];
       //proměnné naplněné z formáře kontaktujte_nas.html
       $formSubject = $_POST['predmet'];
@@ -46,7 +46,7 @@
       } else {
           mail($to,   $subjectOrig, $formMessage, $hlavicka);
           mail($from, $subjectCopy, $messageCopy, $hlavicka);
-          echo('<div class="jumbotron"></div><div class="container container-padding"><h1 class="page-header">Váš mail byl úspěšně odeslán</h1><p> Děkujeme za vaši zprávu či dotaz.</><p> Po přečtení se Vám budeme snažit, co nejdříve odpovědět na mail, který jste zadali ' . '('.$odesilatel.').</p><p><a class="btn btn-info" href="kontakty.php">Zpět na kontakty</a></p></div>');
+          echo('<div class="jumbotron"></div><div class="container container-padding"><h1 class="page-header">Váš mail byl úspěšně odeslán</h1><p> Děkujeme za vaši zprávu či dotaz.</><p> Po přečtení se Vám budeme snažit, co nejdříve odpovědět na mail, který jste zadali ' . '('.$from.').</p><p><a class="btn btn-info" href="kontakty.php">Zpět na kontakty</a></p></div>');
       }
       
       include_once("footer.html");
