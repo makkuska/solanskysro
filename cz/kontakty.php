@@ -36,6 +36,8 @@
                 <dd>Vigantice 278</dd>
                 <dt></dt>
                 <dd>756 61</dd>
+                <dt>mobil</dt>
+                <dd><strong>777 017 324</strong></dd>
                 <dt>tel.</dt>
                 <dd>571 656 440</dd>
               </dl>

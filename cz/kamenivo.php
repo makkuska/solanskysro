@@ -62,12 +62,10 @@
         <p>
         <span class="sestnact">Společnost nabízí dopravu a prodej drceného kameniva, těženého kameniva a písku.</span>
         </p>
-        <p>
-        <span>Provozní doba: <strong>PO-PÁ: 7 – 15</strong></span>
-        </p>
-        <p>
-        <span>Kontakt: <strong>+420 777 017 324</strong></span>
-        </p>
+        <div class="container">
+
+        <?php include_once("{$czpath}provoznidoba.html") ?>
+
         <h2>Drcené kamenivo</h2>
         <div class="links container">
           <div class="col-lg-12">

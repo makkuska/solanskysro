@@ -74,13 +74,9 @@
       </div><!-- div onas -->
       <div id="onas" class="container container-padding">
         <h2 class="page-header">Prodej štěrku</h2>
-        <p>
-        </p>
-        <p>
-        <span>Provozní doba: <strong>PO-PÁ: 7 – 15</strong></span><br />
-        <span>Kontakt: <strong>+420 777 017 324</strong></span><br />
-        <a href="cz/kamenivo.php">Více info</a>
-        </p>
+        <div class="container">
+        <?php include_once("cz/provoznidoba.html") ?>
+        <p><a href="cz/kamenivo.php">Více info</a></p>
       </div><!-- div onas -->
 
       <?php include_once("cz/footer.html") ?>

@@ -30,12 +30,7 @@
         <p>
         <span class="sestnact">Company offers the transport and sale of crushed stone, mined stone, and sand.</span>
         </p>
-        <p>
-        <span>Openning hours: <strong>Mon-Fri: 7 – 15</strong></span>
-        </p>
-        <p>
-        <span>Contact: <strong>+420 777 017 324</strong></span>
-        </p>
+      <?php include_once("openinghours.html") ?>
         <div class="links container">
           <div class="col-lg-12">
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 text-center">

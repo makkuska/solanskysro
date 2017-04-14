@@ -38,6 +38,8 @@
                 <dd>756 61</dd>
                 <dt></dt>
                 <dd>Czech republic</dd>
+                <dt>mobile</dt>
+                <dd>+420 777 017 324</dd>
                 <dt>tel.</dt>
                 <dd>+420 571 656 440</dd>
               </dl>

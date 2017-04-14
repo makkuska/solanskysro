@@ -73,8 +73,9 @@
       <h1 class="page-header">About company</h1>
         <?php include_once("aboutcompany.html") ?>
       <p>
+      <h2 class="page-header">Sales of aggregates</h2>
+    <?php include_once("openinghours.html") ?>
       </p>
-    </div><!-- div onas -->
     <?php include_once("footer.html") ?>
 
       </div> <!-- div container -->
